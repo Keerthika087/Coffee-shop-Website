@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.logo::first-letter{
+    font-size: 54px;
+    color: #ff8400;
+    
+   
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul a:hover{
+    font-size: 25px;
+    color: rgb(72, 173, 201);
+}
+nav ul a:link{
+    color: rgb(226, 222, 222);
+}
+nav ul a:visited{
+    color: antiquewhite;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main img{
+    
+    width: 5oopx;
+    height: 500px;
+  
+    margin-left: 250px;
+}
+.main h1{
+    font-size: 3.5rem;
+    margin: 10px;
+}
+.main p{
+  
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+button{
+    padding: 10px;
+    margin: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: beige;
+    font-size: 1rem;
+    border-radius: 2px;
+    
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+
+}
+.rating span{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.card{
+    height: 340px;
+    width: 230px;
+    text-align: center;
+    border: 1px solid white;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+}
+.card h3{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+    
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#menu{
+    h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+#menu h3{
+   
+   margin: 30px;
+     text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact h1{
+  font-size: 2.5rem;
+  
+}
+.part1 a{
+ color: white;
+ text-decoration: none;
+}
+.part1 a:visited{
+    color: whitesmoke;
+}
+.part2 form{
+    
+}
+label{
+    display: block;
+   
+}
+form input{
+    padding: 5px;
+    width: 300px;
+    border-radius: 4px;
+}
+.fn{
+    padding: 5px;
+    margin: 5px;
+}
+.ln{
+     padding: 5px;
+    margin: 5px;
+}
+.sub{
+     padding: 5px;
+    margin: 5px;
+}
+.email{
+     padding: 5px;
+    margin: 5px;
+}
+.msg{
+     padding: 10px;
+     margin: 4px;
+}
+.msg input{
+    height: 90px;
+    
+}
+.part2 button{
+      width: 300px;
+      border-radius: 10px;
+      
+}
+.part2 button:hover{
+    background-color: #ff8400;
+}
